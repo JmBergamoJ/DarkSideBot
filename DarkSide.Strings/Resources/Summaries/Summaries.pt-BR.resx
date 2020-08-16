@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BOT_STATS" xml:space="preserve">
+		<value>Compartilha o resumo do bot aqui</value>
+	</data>
+	<data name="CLEAR" xml:space="preserve">
+		<value>Limpa a fila</value>
+	</data>
+	<data name="GIVE_DATABASE" xml:space="preserve">
+		<value>Comando muito ruim. Nunca use.</value>
+	</data>
+	<data name="HELP" xml:space="preserve">
+		<value>Lista todos os comandos</value>
+	</data>
+	<data name="HERO_NAME_FIRST_LETTERS" xml:space="preserve">
+		<value>Nome do herói ou primeiras letras</value>
+	</data>
+	<data name="HERO_RANKING" xml:space="preserve">
+		<value>Fornece a lista de heróis do alvo com desempenho específico.</value>
+	</data>
+	<data name="INVITE" xml:space="preserve">
+		<value>Fornece links importantes que podem ser úteis</value>
+	</data>
+	<data name="I_AM" xml:space="preserve">
+		<value>Depois de configurar isso, comandos como 'perfil' e outros não exigirão um parâmetro :)</value>
+	</data>
+	<data name="I_AM_NOT" xml:space="preserve">
+		<value>Eu vou te esquecer e você será obrigado a usar um parâmetro toda vez que você usar um comando que exija accountID.</value>
+	</data>
+	<data name="LAST_MATCH" xml:space="preserve">
+		<value>Obtém os dados da última partida para um SteamID</value>
+	</data>
+	<data name="LOCALE" xml:space="preserve">
+		<value>Altera as configurações de localização do bot.</value>
+	</data>
+	<data name="MAKE_PRO" xml:space="preserve">
+		<value>Faça alguém usuário Profissional. Requer menção.</value>
+	</data>
+	<data name="MATCH" xml:space="preserve">
+		<value>Oferece uma análise detalhada de uma partida específica</value>
+	</data>
+	<data name="NOW_PLAYING" xml:space="preserve">
+		<value>Obtenha a música que está tocando no momento</value>
+	</data>
+	<data name="NO_PATCHES" xml:space="preserve">
+		<value>Não há mais notas de patch para você</value>
+	</data>
+	<data name="PATCHES" xml:space="preserve">
+		<value>Envia para você Dota 2 patches neste canal</value>
+	</data>
+	<data name="PAUSE" xml:space="preserve">
+		<value>Pausa a música</value>
+	</data>
+	<data name="PING" xml:space="preserve">
+		<value>Retorna a latência de ida e volta estimada atual sobre WebSocket e REST "</value>
+	</data>
+	<data name="PLAY" xml:space="preserve">
+		<value>Toca uma música de várias fontes</value>
+	</data>
+	<data name="PREFIX" xml:space="preserve">
+		<value>Muda o prefixo atual do bot.</value>
+	</data>
+	<data name="PROFILE" xml:space="preserve">
+		<value>Mostra o perfil atual do alvo com alguns detalhes.</value>
+	</data>
+	<data name="QUEUE" xml:space="preserve">
+		<value>Mostra a Fila Atual</value>
+	</data>
+	<data name="RECENT_MATCHES" xml:space="preserve">
+		<value>Fornece uma lista das últimas partidas do jogador</value>
+	</data>
+	<data name="REMOVE_PRO" xml:space="preserve">
+		<value>Revoga a assinatura Profissional de alguém. Requer menção.</value>
+	</data>
+	<data name="RESUME" xml:space="preserve">
+		<value>Continua a música</value>
+	</data>
+	<data name="SEEK" xml:space="preserve">
+		<value>Busca uma posição particular na música (em segundos)</value>
+	</data>
+	<data name="SKIP" xml:space="preserve">
+		<value>Salta a música que está tocando no momento.</value>
+	</data>
+	<data name="STOP" xml:space="preserve">
+		<value>Pára a música que está tocando no momento.</value>
+	</data>
+	<data name="SUPPORT" xml:space="preserve">
+		<value>Fornece links importantes que podem ser úteis</value>
+	</data>
+	<data name="TALENTS" xml:space="preserve">
+		<value>Dê a árvore de talentos de um herói</value>
+	</data>
+	<data name="TEAM" xml:space="preserve">
+		<value>Obtém um pequeno perfil para uma equipe profissional</value>
+	</data>
+	<data name="TEAM_MATCHES" xml:space="preserve">
+		<value>Obtém as partidas jogadas por uma equipe profissional</value>
+	</data>
+	<data name="TEAM_NAME_OR_ID" xml:space="preserve">
+		<value>Nome da equipe ou ID da equipe</value>
+	</data>
+	<data name="TEAM_PLAYERS" xml:space="preserve">
+		<value>Obtenha os jogadores de uma equipe profissional</value>
+	</data>
+	<data name="TOP_TEAMS" xml:space="preserve">
+		<value>Fornece uma lista das principais equipes profissionais ordenado por suas classificações.</value>
+	</data>
+	<data name="TRACK" xml:space="preserve">
+		<value>Comece a rastrear um SteamID</value>
+	</data>
+	<data name="UNTRACK" xml:space="preserve">
+		<value>Pare de rastrear os jogos de um SteamID</value>
+	</data>
+	<data name="VOLUME" xml:space="preserve">
+		<value>Define o volume da música atual em reprodução 0-150</value>
+	</data>
+	<data name="VOTE" xml:space="preserve">
+		<value>Fornece links importantes que podem ser úteis</value>
+	</data>
+	<data name="WHO_AM_I" xml:space="preserve">
+		<value>É realmente uma coisa estúpida para um humano perguntar a um robô quem ele é</value>
+	</data>
+</root>

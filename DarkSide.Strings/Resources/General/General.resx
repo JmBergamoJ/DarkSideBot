@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADDED_TRACK_TO_QUEUE" xml:space="preserve">
+    <value>Added {0} to Queue</value>
+  </data>
+  <data name="ADDED_X_TRACKS_TO_QUEUE" xml:space="preserve">
+    <value>Added {0} tracks to the queue</value>
+  </data>
+  <data name="ALIASES" xml:space="preserve">
+    <value>Aliases</value>
+  </data>
+  <data name="ALREADY_SENDING_UPDATES" xml:space="preserve">
+    <value>I am already sending Dota 2 updates in {0}. To stop use '{1}'</value>
+  </data>
+  <data name="ALREADY_TRACKING_USER_NO_PRO_STATUS" xml:space="preserve">
+    <value>You are already tracking **{0}** ({1}) and are not a pro member so I cant let you track more than one Steam Profile</value>
+  </data>
+  <data name="ASSIST" xml:space="preserve">
+    <value>Assist</value>
+  </data>
+  <data name="BAD_ARGUMENT_MESSAGE" xml:space="preserve">
+    <value>You are suppose to pass in a parameter with this command. type 'help [command name]' for help</value>
+  </data>
+  <data name="BOT_STATS" xml:space="preserve">
+    <value>Bot Stats</value>
+  </data>
+  <data name="BOT_STATS_DESCR" xml:space="preserve">
+    <value>Gets Bot's stats</value>
+  </data>
+  <data name="BOT_UP_FOR" xml:space="preserve">
+    <value>Bot Has Been Up For</value>
+  </data>
+  <data name="BROKEN_COMMAND_WARNING" xml:space="preserve">
+    <value>This command is sorta broken so if you face any issues just '{0}' and '{1}' again.</value>
+  </data>
+  <data name="CANNOT_SEEK_TRACK" xml:space="preserve">
+    <value>Cant seek this track.</value>
+  </data>
+  <data name="COMMANDS_UNDER_MODULE" xml:space="preserve">
+    <value>List of commands under {0} module</value>
+  </data>
+  <data name="COMMAND_LIST_GREETING" xml:space="preserve">
+    <value>Hey {0}, here is a list of all my commands.</value>
+  </data>
+  <data name="COMMAND_LIST_HELP_STRING" xml:space="preserve">
+    <value>Use 'help [command-name]' or 'help [module-name]' for more information</value>
+  </data>
+  <data name="COULD_NOT_FIND_COMMAND" xml:space="preserve">
+    <value>Sorry, I couldn't find a command called *{0}*</value>
+  </data>
+  <data name="COULD_NOT_FIND_TEAM" xml:space="preserve">
+    <value>Could not find any team with that ID or name</value>
+  </data>
+  <data name="CREATOR_SUPPORT_STRING" xml:space="preserve">
+    <value>You can always use 'support' command just in case you ever need help from my creator. He is always so ready to help.</value>
+  </data>
+  <data name="CURRENT_LOCALE" xml:space="preserve">
+    <value>Current Locale is: [{0}]</value>
+  </data>
+  <data name="CURRENT_MEMBER" xml:space="preserve">
+    <value>Current Member</value>
+  </data>
+  <data name="CURRENT_PREFIX_MESSAGE" xml:space="preserve">
+    <value>Hmm it was hard to remember but I think I am knows as '{0}' in this Party.</value>
+  </data>
+  <data name="CURRENT_QUEUE" xml:space="preserve">
+    <value>Current Queue</value>
+  </data>
+  <data name="DAY_S" xml:space="preserve">
+    <value>Day(s)</value>
+  </data>
+  <data name="DEATH" xml:space="preserve">
+    <value>Death</value>
+  </data>
+  <data name="DETAILED_HELP_FOOTER" xml:space="preserve">
+    <value>Note: Parameters under '[]' are mandatory and the ones under '&lt;&gt;' are optional</value>
+  </data>
+  <data name="DETAILED_STATS" xml:space="preserve">
+    <value>Detailed stats</value>
+  </data>
+  <data name="DETAILED_STATS_STRING" xml:space="preserve">
+    <value>[OpenDota]({0}){1}[DotaBuff]({2})</value>
+  </data>
+  <data name="DURATION" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="FAILED_TO_LOAD_RESPONSE" xml:space="preserve">
+    <value>Failed to load responses.</value>
+  </data>
+  <data name="GPM" xml:space="preserve">
+    <value>GPM</value>
+  </data>
+  <data name="HAVE_NOT_PLAYED_DOTA_OR_PROFILE_PRIVATE" xml:space="preserve">
+    <value>Our sad guy hasn't played dota in a while or his profile / dota client is private af</value>
+  </data>
+  <data name="HELP_ON_COMMAND" xml:space="preserve">
+    <value>Help on *{0}* coming right up</value>
+  </data>
+  <data name="HERO_NAME" xml:space="preserve">
+    <value>Hero Name</value>
+  </data>
+  <data name="HOUR_S" xml:space="preserve">
+    <value>Hour(s)</value>
+  </data>
+  <data name="INVALID_RESPONSE" xml:space="preserve">
+    <value>Invalid Response</value>
+  </data>
+  <data name="I_ALREADY_KNOW_YOU_AS" xml:space="preserve">
+    <value>But But But I already know you as [{0}]</value>
+  </data>
+  <data name="I_DONT_KNOW_USER" xml:space="preserve">
+    <value>Idk who {0} is but i'll be glad to meet {1} at '{2} [steam ID]</value>
+  </data>
+  <data name="I_DONT_KNOW_YOU" xml:space="preserve">
+    <value>Uhh I don't know you. Either tell me who you are or provide a steamID with this command.</value>
+  </data>
+  <data name="I_KNOW_USER_AS_STEAM_NAME" xml:space="preserve">
+    <value>I know {0} as [{1}]</value>
+  </data>
+  <data name="I_WILL_SEND_UPDATES_IN_THE_CHANNEL" xml:space="preserve">
+    <value>Great, I will send Dota 2 patches in this channel</value>
+  </data>
+  <data name="KILLS" xml:space="preserve">
+    <value>Kills</value>
+  </data>
+  <data name="LAST_MATCH" xml:space="preserve">
+    <value>Last Match Played</value>
+  </data>
+  <data name="LAST_PLAYED" xml:space="preserve">
+    <value>Last Played</value>
+  </data>
+  <data name="LAST_PLAYED_STRING" xml:space="preserve">
+    <value>{0} UTC</value>
+  </data>
+  <data name="LEAGUE_NAME" xml:space="preserve">
+    <value>League Name</value>
+  </data>
+  <data name="LOCALE_CHANGED" xml:space="preserve">
+    <value>Locale Changed to : [{0}]</value>
+  </data>
+  <data name="LOCALE_NOT_FOUND" xml:space="preserve">
+    <value>Locale not found: [{0}]</value>
+  </data>
+  <data name="LOSE_PAST" xml:space="preserve">
+    <value>Lost</value>
+  </data>
+  <data name="LOSSES" xml:space="preserve">
+    <value>Losses</value>
+  </data>
+  <data name="MAKE_YOUR_CHOICE" xml:space="preserve">
+    <value>Make your choice</value>
+  </data>
+  <data name="MATCHES" xml:space="preserve">
+    <value>Matches</value>
+  </data>
+  <data name="MATCH_DATA_STRING" xml:space="preserve">
+    <value>**Match Data for {0} **\n {1}</value>
+  </data>
+  <data name="MATCH_ID_STRING" xml:space="preserve">
+    <value>MatchID</value>
+  </data>
+  <data name="MEDAL" xml:space="preserve">
+    <value>Medal</value>
+  </data>
+  <data name="MEMORY_USAGE" xml:space="preserve">
+    <value>Memory Usage</value>
+  </data>
+  <data name="MINUTE_S" xml:space="preserve">
+    <value>Minute(s)</value>
+  </data>
+  <data name="MOST_SUCCESS_HEROES" xml:space="preserve">
+    <value>Most Successful Heroes</value>
+  </data>
+  <data name="NEVER_MET_BEFORE" xml:space="preserve">
+    <value>Hmm looks like we have never met before. But don't you worry Ive arranged us a secret meeting at {0} [your account]</value>
+  </data>
+  <data name="NEVER_PLAYED_DOTA" xml:space="preserve">
+    <value>Dude never played doto</value>
+  </data>
+  <data name="NEW_PREFIX_MESSAGE" xml:space="preserve">
+    <value>Alright Alright in the latest patch people here have to call me '{0}'.</value>
+  </data>
+  <data name="NICE_TO_MEET_USER" xml:space="preserve">
+    <value>Nice to meet you [{0}]</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NONE_STRING" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="NOW_AT" xml:space="preserve">
+    <value>Now at</value>
+  </data>
+  <data name="NOW_I_KNOW_YOU" xml:space="preserve">
+    <value>Now I know you as [{0}]</value>
+  </data>
+  <data name="NOW_PLAYING" xml:space="preserve">
+    <value>Now Playing</value>
+  </data>
+  <data name="NO_PATCHES_MESSAGE" xml:space="preserve">
+    <value>I'm sad to see you go.</value>
+  </data>
+  <data name="NO_SUMMARY" xml:space="preserve">
+    <value>No summary for {0}</value>
+  </data>
+  <data name="PING" xml:space="preserve">
+    <value>Ping</value>
+  </data>
+  <data name="PLAYERS" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="PLAYER_NAME" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="PLAYING_NOW" xml:space="preserve">
+    <value>Playing {0} Now</value>
+  </data>
+  <data name="PRIVATE_PROFILE" xml:space="preserve">
+    <value>Private Profile</value>
+  </data>
+  <data name="PRO_STATUS_ALREADY_GRANTED" xml:space="preserve">
+    <value>{0} is already a pro Member</value>
+  </data>
+  <data name="PRO_STATUS_GRANTED" xml:space="preserve">
+    <value>Congratzzz {0}, you are now a pro member</value>
+  </data>
+  <data name="PRO_STATUS_NEVER_GRANTED" xml:space="preserve">
+    <value>{0} was never pro</value>
+  </data>
+  <data name="PRO_STATUS_REMOVED" xml:space="preserve">
+    <value>{0}, you are no longer a pro member</value>
+  </data>
+  <data name="QUEUE_CLEARED" xml:space="preserve">
+    <value>Queue cleared</value>
+  </data>
+  <data name="RATING" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="REQUESTED_BY" xml:space="preserve">
+    <value>Requested by</value>
+  </data>
+  <data name="SEARCHING" xml:space="preserve">
+    <value>Searching</value>
+  </data>
+  <data name="SECOND_S" xml:space="preserve">
+    <value>Second(s)</value>
+  </data>
+  <data name="SOMEONE_ALREADY_TRACKING_IN_CHANNEL" xml:space="preserve">
+    <value>Someone is already tracking {0} ({1}) in {2}</value>
+  </data>
+  <data name="SPECIFIC_SEARCHES_STRING" xml:space="preserve">
+    <value>To go specific {0} search try adding '{1}:'before your search string. Eg: {2} {1}:Allen Walker</value>
+  </data>
+  <data name="STATUS" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SUCCESSFULLY_REMOVED_FROM_TRACKING_LIST" xml:space="preserve">
+    <value>I have successfully removed **{0}** ({1}) from your track list on this server.</value>
+  </data>
+  <data name="SUMMARY" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="TEAM_ID_STRING" xml:space="preserve">
+    <value>TeamID</value>
+  </data>
+  <data name="TEAM_NAME" xml:space="preserve">
+    <value>Team Name</value>
+  </data>
+  <data name="TOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TOTAL_SERVERS" xml:space="preserve">
+    <value>Total Servers</value>
+  </data>
+  <data name="TOTAL_USERS" xml:space="preserve">
+    <value>Total Users</value>
+  </data>
+  <data name="TRACKS_IN_QUEUE" xml:space="preserve">
+    <value>{0} songs in the queue</value>
+  </data>
+  <data name="TRACK_ALTREADY_PLAYING" xml:space="preserve">
+    <value>Already playing</value>
+  </data>
+  <data name="TRACK_IS_SEEKABLE" xml:space="preserve">
+    <value>Track is seekable</value>
+  </data>
+  <data name="TRACK_NOT_FOUND" xml:space="preserve">
+    <value>The search found no such tracks</value>
+  </data>
+  <data name="TRACK_PAUSED" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="TRACK_QUEUE_EMPTY" xml:space="preserve">
+    <value>The Queue is Empty.</value>
+  </data>
+  <data name="TRACK_RESUMED" xml:space="preserve">
+    <value>Resumed</value>
+  </data>
+  <data name="TRACK_STOPPED_PLAYING" xml:space="preserve">
+    <value>Stopped playing. Your queue is still intact though. Use '{0}' to Destroy the Queue</value>
+  </data>
+  <data name="UNKNOWN" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="UNMET_PRECONDITION_MESSAGE" xml:space="preserve">
+    <value>You can not use this command at the moment. Reason: {0}</value>
+  </data>
+  <data name="UP_NEXT" xml:space="preserve">
+    <value>Up next</value>
+  </data>
+  <data name="UP_TIME" xml:space="preserve">
+    <value>Up-time</value>
+  </data>
+  <data name="URL_NOT_PLAYABLE" xml:space="preserve">
+    <value>The url is not playable.</value>
+  </data>
+  <data name="USAGE_STRING" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name="VERSUS" xml:space="preserve">
+    <value>Versus</value>
+  </data>
+  <data name="VOLUME_NOW_SET" xml:space="preserve">
+    <value>Volume now is set to</value>
+  </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="WILL_BE_POSTING_USER_MATCHES_EVERY_HOUR" xml:space="preserve">
+    <value>I will be posting {0}'s ({1}) new matches here in this channel every Hour</value>
+  </data>
+  <data name="WINS" xml:space="preserve">
+    <value>Wins</value>
+  </data>
+  <data name="WIN_LOSS" xml:space="preserve">
+    <value>Win/Loss</value>
+  </data>
+  <data name="WIN_PAST" xml:space="preserve">
+    <value>Won</value>
+  </data>
+  <data name="XPM" xml:space="preserve">
+    <value>XPM</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="YOU_ARE_NO_LONGER_USER" xml:space="preserve">
+    <value>Okay you are no longer {0}.</value>
+  </data>
+  <data name="YOU_HAVE_NOT_TRACKED_USER" xml:space="preserve">
+    <value>You haven't tracked **{0}** ({1}) on this server.</value>
+  </data>
+  <data name="YOU_WERE_NEVER_USER" xml:space="preserve">
+    <value>You were never {0}.</value>
+  </data>
+</root>

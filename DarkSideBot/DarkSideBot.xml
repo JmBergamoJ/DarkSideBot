@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DarkSideBot</name>
+    </assembly>
+    <members>
+        <member name="T:DarkSideBot.Modules.Admin">
+            <summary>
+            Admin Module - Commands for Guild Admins
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.Admin.PrefixTask(System.String)">
+            <summary>
+            Change or check current prefix on Guild
+            </summary>
+            <param name="newPrefix">New Prefix for change</param>
+            <returns>Replies with current prefix or new prefix confirmation</returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.Beta">
+            <summary>
+            Beta Module for Beta Commands
+            </summary>
+        </member>
+        <member name="T:DarkSideBot.Modules.Dota">
+            <summary>
+            Dota Module for Profle Tracking, Team / Match Stats
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.LasTask(System.String)">
+            <summary>
+            Last Match command. Uses User Steam ID or Account ID parameter to get the User's Last Match.
+            </summary>
+            <param name="accountId">Account ID for Search</param>
+            <returns>Data from last match or error message.</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.LastMatch(System.String,System.Boolean@)">
+            <summary>
+            Last Match command. Uses User Steam ID or Account ID parameter to get the User's Last Match.
+            </summary>
+            <param name="accountId">Account ID for Search</param>
+            <param name="lastHour">If this match is from the last Hour. Used for broadcasting match to tracking users.</param>
+            <returns>Data from last match or error message.</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.ProfileTask(System.String)">
+            <summary>
+            Profile command. Uses User Steam ID or Account ID parameter to get the User's Profile.
+            </summary>
+            <param name="accountId">Account ID for Search</param>
+            <returns>Profile Data or error message.</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.MatchTask(System.Int64)">
+            <summary>
+            Match command. Searches for a Match with MatchID
+            </summary>
+            <param name="matchId">Match ID for Search</param>
+            <returns>Match Data or error message.</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.MatchDataGiver(System.Int64)">
+            <summary>
+            Searches for a Match with MatchID
+            </summary>
+            <param name="matchId">Match ID for Search</param>
+            <returns>Match Data or error message.</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.RecentMatchesTask(System.String)">
+            <summary>
+            Recent Matches command. Uses User Steam ID or Account ID parameter to get the User's Last 10 Matches.
+            </summary>
+            <param name="accountId">Account ID for Search</param>
+            <returns>Data from last 10 matches or error message.</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.ProTeamsTask">
+            <summary>
+            Top Teams Command. Searches for the top 15 Teams.
+            </summary>
+            <returns>Top 15 Teams</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.HeroRankingTask(System.String)">
+            <summary>
+            Hero Ranking Command. Uses User Steam ID or Account ID parameter to get the User's Best Heroes.
+            </summary>
+            <param name="accountId">Account ID for Search</param>
+            <returns>Top 15 Heroes or error message</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.TeamSearchTask(System.String)">
+            <summary>
+            Team Search Command. Searches for a team with it's ID or Name.
+            </summary>
+            <param name="queryOrTeamId">Query for Search. Team ID or Team Name</param>
+            <returns>Team Data or Error Message</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.ProTeamMatches(System.String)">
+            <summary>
+            Pro Team Matches Command. Searches for the last 10 Matches of a Team.
+            </summary>
+            <param name="queryOrTeamId">Team Name or Team ID</param>
+            <returns>Team Matches or Error Message</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Dota.ProTeamPlayers(System.String)">
+            <summary>
+            Pro Team Players Command. Searches for the Players of a Pro Team.
+            </summary>
+            <param name="queryOrTeamId">Team Name or Team ID</param>
+            <returns>Team Playeys Info or Error Message</returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.Help">
+            <summary>
+            Help Module. for information on other Modules and Commands.
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.Help.#ctor(Discord.Commands.CommandService)">
+            <summary>
+            Default Ctor.
+            </summary>
+            <param name="service">Command Service for injection</param>
+        </member>
+        <member name="M:DarkSideBot.Modules.Help.HelpAsync(System.String)">
+            <summary>
+            Help Commands. goes through modules and lists commands. Gets help on Modules or Commands if specified
+            </summary>
+            <param name="commandOrModule">Module or Command for help.</param>
+            <returns>Replies with help on modules / commands or error message.</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Help.DetailedHelpAsync(System.String)">
+            <summary>
+            Gets detailed help on a command
+            </summary>
+            <param name="command">Command to get help</param>
+            <returns>Command help Info or error message</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Help.DetailedModuleHelpAsync(System.String)">
+            <summary>
+            Gets detailed help on a Module
+            </summary>
+            <param name="module">Module to get help</param>
+            <returns>Module help Info or error message</returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.HeroSpecific">
+            <summary>
+            Hero Specific Module. Commands on Specific DotA Heroes.
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.HeroSpecific.HeroTalentTask(System.String)">
+            <summary>
+            Hero Talents Command. Gets Hero Talents.
+            </summary>
+            <param name="hero">Hero to get Talents</param>
+            <returns>Talents Info or Error Message</returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.Music">
+            <summary>
+            Music Module. Commands for Music Streaming on voice channel.
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.#ctor(SharpLink.LavalinkManager)">
+            <summary>
+            Public ctor
+            </summary>
+            <param name="lavalinkManager">The Lavaling Manager for Injection</param>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.SeekTask(System.Int32)">
+            <summary>
+            Seek Command. Seeks a time on a song currently playing.
+            </summary>
+            <param name="position">Position in the song in seconds</param>
+            <returns>Replies with track change to time set or error message.</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.VolumeTask(System.UInt32)">
+            <summary>
+            Volume command. Sets the streaming volume for channel
+            </summary>
+            <param name="value">Value between 0 - 150</param>
+            <returns>Volume change or current volume</returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.PauseTask">
+            <summary>
+            Pause Command. Pauses the current song. can be Resumed After.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.ResumeTask">
+            <summary>
+            Resume Command. Resumes a previously paused track.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.NowPlayingTask">
+            <summary>
+            Now Playing command. Show the currently playing song.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.ClearTask">
+            <summary>
+            Clear Command. Clears the Current Queue.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.StopTask">
+            <summary>
+            Stops the Current Track.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.LeaveTask">
+            <summary>
+            Disconnect command. Makes the bot leave the voice channel. Useful for fixing any streaming problems.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.QueueTask">
+            <summary>
+            Queue Command. Shows up to 10 items in the current queue
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.SkipTask">
+            <summary>
+            Skips the current song.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Music.PlayTask(System.String)">
+            <summary>
+            Play Command. Seaches for a song, then adds it to the queue. Can do searches on Youtube and SoundCloud.
+            </summary>
+            <param name="query">Query or URL to the song.</param>
+            <returns></returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.OwnerCommands">
+            <summary>
+            Owner commands. Commands only for the Bot Owner
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.OwnerCommands.GiveDatabaseTask">
+            <summary>
+            Downloads the Database. Very Bad.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.OwnerCommands.ProTask(Discord.WebSocket.SocketUser)">
+            <summary>
+            Makes a user a "Pro" User. requires mention
+            </summary>
+            <param name="socketUser">User</param>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.OwnerCommands.RemoveProTask(Discord.WebSocket.SocketUser)">
+            <summary>
+            Revokes a "Pro" Status grantes to a User
+            </summary>
+            <param name="socketUser">User</param>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.OwnerCommands.BotMainStats">
+            <summary>
+            Gets the Bots Stats, like Uptime, memory usage, total servers and users.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.OwnerCommands.LocaleTask(System.String)">
+            <summary>
+            Change the bots Locale.
+            <para>Checks if new locale is valid. Requires restart.</para>
+            </summary>
+            <param name="NewLocale">New Locale for Change.
+            </param>
+            <returns>Replies with Current locale and if changing the locale, the new locale.</returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.Subscribe">
+            <summary>
+            Subscription Module. for User Definition, Steam Account Linking, etc.
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.Subscribe.WhoIsTask(Discord.WebSocket.SocketGuildUser)">
+            <summary>
+            Looks up User Profile
+            </summary>
+            <param name="userMention">User Profile</param>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Subscribe.WhoTask">
+            <summary>
+            Asks the Bot Who Are You.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Subscribe.SubscribeTask(System.String)">
+            <summary>
+            Main Subscription Command. Links a Steam Account with your Discord User.
+            </summary>
+            <param name="account">Account Name</param>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Subscribe.UnSubscribeTask(System.String)">
+            <summary>
+            Removes the link between your Steam Account and your Discord User.
+            </summary>
+            <param name="accountId">Account to remove.</param>
+            <returns></returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.TrackingService">
+            <summary>
+            Tracking Module. For Tracking User Matches
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.TrackingService.UnTrackTask(System.String)">
+            <summary>
+            Untracks a User on the Guild.
+            </summary>
+            <param name="steamId">User to Untrack</param>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.TrackingService.TrackTask(System.String)">
+            <summary>
+            Tracks a User on a Server
+            </summary>
+            <param name="steamId">User to Track</param>
+            <returns></returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.Updates">
+            <summary>
+            Updates Module. Can register a Text Channel to receive Dota Updates.
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.Updates.PatchesTask">
+            <summary>
+            Register a text channel to receive dota updates
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Updates.NoPatchesTask">
+            <summary>
+            Removes Channel from Dota Update Subscription
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DarkSideBot.Modules.Utilities">
+            <summary>
+            Utilities Module. Useful commands.
+            </summary>
+        </member>
+        <member name="M:DarkSideBot.Modules.Utilities.LatencyAsyncTask">
+            <summary>
+            Ping Command. Checks current latency
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DarkSideBot.Modules.Utilities.Invite">
+            <summary>
+            Sends invite links in the chat.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DarkSideBot.SuperHandler">
+            <summary>
+            Handles everything related to Client and Commands
+            </summary>
+        </member>
+        <member name="T:DarkSide.Utils.Attributes.LocalizedNameAttribute">
+            <summary>
+            Marks the public name of a command, module, or parameter.
+            </summary>
+        </member>
+        <member name="M:DarkSide.Utils.Attributes.LocalizedNameAttribute.#ctor(System.String)">
+            <summary>
+            Marks the public name of a command, module, or parameter with the provided name.
+            </summary>
+            <param name="provider">Localization Provider</param>
+            <param name="key">The public name of the object.</param>     
+        </member>
+    </members>
+</doc>

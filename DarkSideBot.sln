@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkSideBot", "DarkSideBot\DarkSideBot.csproj", "{7B3DAF34-0236-45C1-93EA-15108B481B8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkSide.Utils", "DarkSide.Utils\DarkSide.Utils.csproj", "{BDA3E6C6-7A30-4C16-AD4E-6535FCE752E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkSide.Models", "DarkSide.Models\DarkSide.Models.csproj", "{3F0003FF-D0F1-48E7-8D77-36525EA7EA8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkSide.Strings", "DarkSide.Strings\DarkSide.Strings.csproj", "{810257F3-884E-4BE0-99B2-905BD517E2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkSide.OpenDota", "DarkSide.OpenDota\DarkSide.OpenDota.csproj", "{581EBF23-A77B-471C-9A86-BEF3512E07CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkSide.Web.Base", "DarkSide.Web.Base\DarkSide.Web.Base.csproj", "{BB1B33AF-DB4C-474B-9E9A-D3F82CBBA575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkSide.Steam", "DarkSide.Steam\DarkSide.Steam.csproj", "{39A0037A-FBBE-41D4-B7AA-8B8D59ABE540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B3DAF34-0236-45C1-93EA-15108B481B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3DAF34-0236-45C1-93EA-15108B481B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3DAF34-0236-45C1-93EA-15108B481B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3DAF34-0236-45C1-93EA-15108B481B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA3E6C6-7A30-4C16-AD4E-6535FCE752E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA3E6C6-7A30-4C16-AD4E-6535FCE752E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA3E6C6-7A30-4C16-AD4E-6535FCE752E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA3E6C6-7A30-4C16-AD4E-6535FCE752E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0003FF-D0F1-48E7-8D77-36525EA7EA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0003FF-D0F1-48E7-8D77-36525EA7EA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0003FF-D0F1-48E7-8D77-36525EA7EA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0003FF-D0F1-48E7-8D77-36525EA7EA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810257F3-884E-4BE0-99B2-905BD517E2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810257F3-884E-4BE0-99B2-905BD517E2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810257F3-884E-4BE0-99B2-905BD517E2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810257F3-884E-4BE0-99B2-905BD517E2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581EBF23-A77B-471C-9A86-BEF3512E07CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581EBF23-A77B-471C-9A86-BEF3512E07CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581EBF23-A77B-471C-9A86-BEF3512E07CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581EBF23-A77B-471C-9A86-BEF3512E07CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1B33AF-DB4C-474B-9E9A-D3F82CBBA575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1B33AF-DB4C-474B-9E9A-D3F82CBBA575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1B33AF-DB4C-474B-9E9A-D3F82CBBA575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1B33AF-DB4C-474B-9E9A-D3F82CBBA575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A0037A-FBBE-41D4-B7AA-8B8D59ABE540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A0037A-FBBE-41D4-B7AA-8B8D59ABE540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A0037A-FBBE-41D4-B7AA-8B8D59ABE540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A0037A-FBBE-41D4-B7AA-8B8D59ABE540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C14BA45-FAD6-433B-860D-2CFA817D621B}
+	EndGlobalSection
+EndGlobal

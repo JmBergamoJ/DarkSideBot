@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="BOT_STATS" xml:space="preserve">
+    <value>Shares the bot summary here</value>
+  </data>
+	<data name="CLEAR" xml:space="preserve">
+    <value>Clears the queue</value>
+  </data>
+	<data name="GIVE_DATABASE" xml:space="preserve">
+    <value>Very bad command. Dont ever use.</value>
+  </data>
+	<data name="HELP" xml:space="preserve">
+    <value>Lists all the commands</value>
+  </data>
+	<data name="HERO_NAME_FIRST_LETTERS" xml:space="preserve">
+    <value>Hero name or first few letters</value>
+  </data>
+	<data name="HERO_RANKING" xml:space="preserve">
+    <value>Gives you the target's hero list with specific performance.</value>
+  </data>
+	<data name="INVITE" xml:space="preserve">
+    <value>Provides important links that can come in handly</value>
+  </data>
+	<data name="I_AM" xml:space="preserve">
+    <value>Gives your sad life a meaning. After you set this up, commands like 'profile' and others wont require a parameter :)</value>
+  </data>
+	<data name="I_AM_NOT" xml:space="preserve">
+    <value>I will forget you and you will be cursed to give a parameter every-time you use an accountID demanding command.</value>
+  </data>
+	<data name="LAST_MATCH" xml:space="preserve">
+    <value>Gets the last match data for a steamID</value>
+  </data>
+	<data name="LOCALE" xml:space="preserve">
+    <value>Changes the bot's locale settings.</value>
+  </data>
+	<data name="MAKE_PRO" xml:space="preserve">
+    <value>Make someone pro user. Requires mention.</value>
+  </data>
+	<data name="MATCH" xml:space="preserve">
+    <value>Gives you detailed analysis of a specific match</value>
+  </data>
+	<data name="NOW_PLAYING" xml:space="preserve">
+    <value>Get the current playing song</value>
+  </data>
+	<data name="NO_PATCHES" xml:space="preserve">
+    <value>No more patch notes for you noob</value>
+  </data>
+	<data name="PATCHES" xml:space="preserve">
+    <value>Sends you Dota 2 patches in this channel</value>
+  </data>
+	<data name="PAUSE" xml:space="preserve">
+    <value>Pauses the song</value>
+  </data>
+	<data name="PING" xml:space="preserve">
+    <value>Returns the current estimated round-trip latency over WebSocket and REST"</value>
+  </data>
+	<data name="PLAY" xml:space="preserve">
+    <value>Plays a song from tong of sources</value>
+  </data>
+	<data name="PREFIX" xml:space="preserve">
+    <value>Changes the bot's current prefix.</value>
+  </data>
+	<data name="PROFILE" xml:space="preserve">
+    <value>Shows the target's current Profile with some nasty details</value>
+  </data>
+	<data name="QUEUE" xml:space="preserve">
+    <value>Prints the current queue</value>
+  </data>
+	<data name="RECENT_MATCHES" xml:space="preserve">
+    <value>Gives you a list of the target's last 15 matches</value>
+  </data>
+	<data name="REMOVE_PRO" xml:space="preserve">
+    <value>Revoke pro membership from someone. Requires mention.</value>
+  </data>
+	<data name="RESUME" xml:space="preserve">
+    <value>Resumes the song</value>
+  </data>
+	<data name="SEEK" xml:space="preserve">
+    <value>Seeks to a particular position in the song (in sec)</value>
+  </data>
+	<data name="SKIP" xml:space="preserve">
+    <value>Skips the current playing song. Broken AF.</value>
+  </data>
+	<data name="STOP" xml:space="preserve">
+    <value>Stops the current playing song.</value>
+  </data>
+	<data name="SUPPORT" xml:space="preserve">
+    <value>Provides important links that can come in handly</value>
+  </data>
+	<data name="TALENTS" xml:space="preserve">
+    <value>Give a hero's Talent Tree</value>
+  </data>
+	<data name="TEAM" xml:space="preserve">
+    <value>Gets a small profile for a pro Team</value>
+  </data>
+	<data name="TEAM_MATCHES" xml:space="preserve">
+    <value>Gets the matches played by a pro team</value>
+  </data>
+	<data name="TEAM_NAME_OR_ID" xml:space="preserve">
+    <value>Team Name or Team ID</value>
+  </data>
+	<data name="TEAM_PLAYERS" xml:space="preserve">
+    <value>Get the players of a pro team</value>
+  </data>
+	<data name="TOP_TEAMS" xml:space="preserve">
+    <value>Gives you a list of top professional teams sorted by their ratings.</value>
+  </data>
+	<data name="TRACK" xml:space="preserve">
+    <value>Start tracking a steamID</value>
+  </data>
+	<data name="UNTRACK" xml:space="preserve">
+    <value>Stop Tracking a steamID's games</value>
+  </data>
+	<data name="VOLUME" xml:space="preserve">
+    <value>Sets the volume for the current playing song 0-150</value>
+  </data>
+	<data name="VOTE" xml:space="preserve">
+    <value>Provides important links that can come in handly</value>
+  </data>
+	<data name="WHO_AM_I" xml:space="preserve">
+    <value>That's really a dumb thing for a human to ask a robot who he is</value>
+  </data>
+	<data name="WHO_IS" xml:space="preserve">
+    <value>Ill let you know who someone is if I know him</value>
+  </data>
+</root>
